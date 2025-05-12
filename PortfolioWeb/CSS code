@@ -153,10 +153,10 @@ h2, h3 {
   width: 120px;
   background-color: #cbd5e1;
   border-radius: 8px;
-  margin: 0 auto 10px auto; /* Center horizontally using auto margins */
-  display: flex;            /* Make it a flex container */
-  align-items: center;      /* Vertically center the image */
-  justify-content: center;  /* Horizontally center the image */
+  margin: 0 auto 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-img img {
