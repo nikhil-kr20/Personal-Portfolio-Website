@@ -3,8 +3,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
+
+body.recent-projects-bg {
+    background: linear-gradient(to right, #d0f0c0, #a1c4fd);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
 #title{
-  background-color: #3eddf5b7;
+    background: linear-gradient(to right, #e0f7fa, #e1bee7);
     padding: 40px;
     padding-left: 30px;
     padding-right: 0px;
@@ -153,10 +160,10 @@ h2, h3 {
   width: 120px;
   background-color: #cbd5e1;
   border-radius: 8px;
-  margin: 0 auto 10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto 10px auto; /* Center horizontally using auto margins */
+  display: flex;            /* Make it a flex container */
+  align-items: center;      /* Vertically center the image */
+  justify-content: center;  /* Horizontally center the image */
 }
 
 .card-img img {
@@ -222,4 +229,43 @@ button:hover {
  padding: 40px;
  font-size: large;
  background-color: white;
+}
+
+.projectHeading h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+.project-cards1{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.project-cards1 .card{
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 45%; /* Set the width to 100% to cover the total screen width */
+  max-width: none; /* Remove any maximum width constraints */
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+@media screen and (max-width: 720px) {
+  .project-cards1 .card{
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 15px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+}
+
+.recent-projects-section {
+  margin-bottom: 70px;
 }
