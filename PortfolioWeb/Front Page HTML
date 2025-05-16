@@ -16,9 +16,8 @@
             <h2>B.Tech (IT Student)</h2> 
             <p>technologies with creativity to build innovative solutions.<br> 
             </p>
-            <button>View projects</button>
+            <button id="view-all-projects-btn1" >View projects</button>
         </div>
-       
     </div>
     <div class="container">
     <section class="about">
@@ -88,7 +87,7 @@
           </div>
          </div>
           <div class="bottom-button">
-           <button>View All projects</button>
+           <button id="view-all-projects-btn">View All projects</button>
           </div>
       </section>
     </div>
@@ -100,5 +99,5 @@
         </p>
    </div>  
        <center><h2>All rights are reserved &copy; 2025</h2></center>
-    </body>
+</body>
 </html>
