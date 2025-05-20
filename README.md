@@ -39,9 +39,11 @@ Edit
 ## 🚀 Getting Started
 
 To view or edit the website locally:
- 1. Clone the repository:
-     ```bash
-  Open the index.html file in your browser.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+Open the index.html file in your browser.
 
 🛠️ Tech Stack
     HTML5
@@ -50,11 +52,11 @@ To view or edit the website locally:
     Netlify (for deployment)
 
 📧 Contact
-  If you'd like to connect, collaborate, or have any feedback, feel free to reach out:
+If you'd like to connect, collaborate, or have any feedback, feel free to reach out:
    📧 Email: nikhilkrr20@gmail.com
    🌐 LinkedIn: linkedin.com/in/nikhilkrr20
 
 📜 License
-  This project is open-source and available under the MIT License.
+This project is open-source and available under the MIT License.
 
 Thank you for checking out my portfolio! 😊
